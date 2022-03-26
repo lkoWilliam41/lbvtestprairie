@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(/hero-burger\ header.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.eader{
+    background-image: url(/hero-burger\ header.jpg);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+}
+
+.eader ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 440px; 
+    position: absolute;
+}
+
+.eader p{
+    margin-top: 40px;
+    color: #fff;
+}
+
+.cadi{
+    color: #fff;
+    border-right: solid 2px #ccc;
+    height: 3vh;
+    padding: 0px 40px;
+    margin-right: -700px;
+}
+
+.prise{
+    width: 50px;
+}
+
+.home{
+    margin-right: 25px;
+}
+
+.about{
+    margin-right: 25px;
+}
+.menu{
+    margin-right: 25px;
+}
+.offers{
+    margin-right: 25px;
+}
+
+.more{
+    margin-right: 25px;
+}
+
+.order{
+    margin-top: 0;
+    margin-right: 25px;
+    border: 1px solid orangered;
+    padding:  20px;
+    margin-top: -21px;
+    background-color: orangered ;
+}
+
+.text{
+    color: #fff;
+    margin-left: 37%;
+    margin-top: 0;
+    font-size: 5em;
+}
+
+.text1{
+    color: #D3D3D3;
+    margin-left: 37%;
+    margin-top: -50px;
+}
+
+.text2{
+    color: #fff;
+    margin-left: 37%;
+    margin-top: 40px;
+    border: 2px solid orangered;
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.partie2{
+    display: flex;
+    color: #D3D3D3;
+    height: 50vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.etoile{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.le_text{
+    position: relative;
+}
+
+.titre{
+    margin-left: 40%;
+    font-size: 3em;
+}
+
+.phrase1{
+    margin-left: 40%;
+    font-size: 2em;
+    width: 60%;
+}
+
+.phrase2{
+    margin-left: 40%;
+    font-size: 2em;
+}
+
+.Our{
+    color: black;
+}
+
+.phrase3{
+    margin-left: 40%;
+    font-size: 2em;
+}
+
+.partie3{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+    position:absolute;
+    bottom: -1400px;
+}
+
+.partie3 .pasta{
+    margin-top: 10px;
+}
+
+.partie4{
+    height: 100vh;
+    width: 100%;
+    background-color: #e7e5e2;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -2100px;
+    text-align: center;
+}
+
+.best{
+    color:#ccc;
+    font-size: 2em;
+}
+
+.imgettableau{
+    background-color: #fff;
+    width: 60%;
+    height: 80vh;
+    position: absolute;
+    right:315px;
+    top: 130px;
+    padding: 0;
+}
+
+.imgettableau img{
+    width: 100%;
+    height: 40vh;
+    margin-top: 0px;
+}
+/*         this           is        box  of          my             board */
+
+.element1{
+    height: 10vh;
+    width: 60%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    right: 315px;
+    top: 418px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.element1 h2{
+    margin-top: 5px;
+}
+
+.element1 .forone p{
+    position: absolute;
+    right: 20px;
+}
+
+.element1 .by .acheter{
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+/* The  end             of             the              first box */
+
+.element2{
+    height: 10vh;
+    width: 60%;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 315px;
+    top: 492px;
+    text-align: center;
+}
+
+.element2 h2{
+    margin-top: 0px;
+    position:absolute;
+    left: 40px;
+}
+
+.element2 .forone p{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+}
+
+.element2 .by .acheter{
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 20px;
+    position: absolute;
+    right: 1px;
+}
+
+
+
+.element3{
+    height: 10vh;
+    width: 60%;
+    position: absolute;
+    right: 315px;
+    top:550px ;
+}
+
+.element4{
+    height: 10vh;
+    width: 60%;
+    position: absolute;
+    right: 315px;
+    top: ;
+}
+
